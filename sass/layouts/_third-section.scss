@@ -1,0 +1,35 @@
+.third-section {
+  background-color: var(--background-color);
+  padding-top: 0;
+}
+.third-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--main-text-color);
+  margin-bottom: 50px;
+}
+.third-section-list {
+  display: flex;
+  gap: 30px;
+}
+
+.third-section-item {
+  position: relative;
+}
+
+.third-section-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--background-color);
+  background-color: rgba(47, 48, 58, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
