@@ -9,9 +9,9 @@
   margin: 0;
   padding: 0;
   list-style: none;
-} */
+}
 
-/* :root {
+:root {
   --main-text-color: #212121;
   --secondary-text-color: #ffffff;
   --ouwer-text-color: #757575;
@@ -26,17 +26,17 @@
   --background-color: #ffffff;
   --icon-color: #afb1b8;
   --main-font: Roboto, sans-serif;
-} */
+}
 
-/* body {
+body {
   background-color: var(--background-color);
   color: var(--main-text-color);
   font-family: var(--main-font);
   font-size: 14px;
   letter-spacing: 0.03em;
-} */
+}
 
-/* h1,
+h1,
 h2,
 h3,
 h4,
