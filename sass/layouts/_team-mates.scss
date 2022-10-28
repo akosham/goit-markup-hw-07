@@ -1,39 +1,24 @@
-.fourth-section {
+.team-mates {
   background-color: #f5f4fa;
 }
-.fourth-section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
+.team-mates__title {
+  @include font(700, 36, 1.17, null, center);
+  // font-weight: 700;
+  // font-size: 36px;
+  // line-height: 1.17;
+  // text-align: center;
   color: var(--main-text-color);
   margin-bottom: 50px;
 }
-.fourth-section-list {
+.card {
   display: flex;
   gap: 30px;
 }
-.fourth-section-item {
+.card__item {
   width: calc((100% - 90px) / 4);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-
-.fourth-section-subtitle {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  color: var(--main-text-color);
-  margin-bottom: 10px;
-}
-.fourth-section-text {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  color: var(--ouwer-text-color);
-  margin-bottom: 16px;
 }
 
 .introducing {
@@ -42,13 +27,30 @@
   background-color: var(--background-color);
 }
 
-.team-soc-list {
+.card__subtitle {
+  @include font(500, 16, 1.19, null, center);
+  // font-weight: 500;
+  // font-size: 16px;
+  // line-height: 1.19;
+  // text-align: center;
+  color: var(--main-text-color);
+  margin-bottom: 10px;
+}
+.card__text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--ouwer-text-color);
+  margin-bottom: 16px;
+}
+
+.soc__list {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.team-soc-link {
+.soc__link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -59,14 +61,13 @@
   color: var(--icon-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--acent-color);
+    color: var(--background-color);
+  }
 }
 
-.team-soc-link:hover,
-.team-soc-link:focus {
-  background-color: var(--acent-color);
-  color: var(--background-color);
-}
-
-.team-soc-icon {
+.soc__icon {
   fill: currentColor;
 }
