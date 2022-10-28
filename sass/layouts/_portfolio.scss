@@ -9,9 +9,9 @@
   gap: 8px;
 }
 
-// .filters-item {
-//   max-width: 108.6px;
-// }
+.filters-item {
+  width: calc((100% - 32px) / 5);
+}
 
 .filters-btn {
   font-family: var(--main-font);
@@ -48,7 +48,7 @@
 }
 
 .project-item {
-  width: 370px;
+  width: calc((100% - 60px) / 3);
 }
 
 .project-item:hover .project-hidden-text {
