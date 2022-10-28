@@ -829,10 +829,6 @@ html {
   gap: 8px;
 }
 
-.filters-item {
-  width: calc((100% - 32px) / 5);
-}
-
 .filters-btn {
   font-family: var(--main-font);
   font-style: normal;
