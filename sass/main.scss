@@ -1,13 +1,13 @@
+@import './utils/reset';
+@import './utils/vissually-hidden.scss';
+@import './utils/vars';
+@import './utils/mixin';
+
 @import './components/container.scss';
 @import './components/section.scss';
 @import './components/body';
 @import './components/logo';
 @import './components/btn';
-
-@import './utils/reset';
-@import './utils/vissually-hidden.scss';
-@import './utils/vars';
-@import './utils/mixin';
 
 @import './layouts/header';
 @import './layouts/hero';
